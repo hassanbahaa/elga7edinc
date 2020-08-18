@@ -1,0 +1,321 @@
+
+
+.slidetextopt{
+	background-color: rgba(0, 0, 0, 0.36);
+	background-size: auto;
+	font-size: 1.25rem;
+    width: fit-content;
+    padding: 10px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.iconshapesfeat {
+	font-size: 35px
+}
+.feats p{
+	font-size: 15px;
+	line-height: 25px
+}
+
+.features{
+	background-color: #dddddd;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px
+
+}
+
+.h1h1h1{
+	font-weight: bold
+}
+.h1h1h1 span{
+	color: #E41B17
+}
+
+
+
+
+
+
+
+
+/* boot straaaaap  */
+
+body{
+	padding-top: 45px;
+	font-size: 16px;
+	height: 2500px
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active
+{
+	background-color: #E41B17;
+	font-weight: 600
+	
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{
+
+	
+}
+
+.dropdown-menu{
+
+	background-color: #343a40;
+	color: #bbb;
+align-items: center;
+	place-items: center;
+    text-align: inherit;
+}
+.dropdown-item{
+	color: #bbb;
+	padding: 7px 20px;
+	-webkit-transition:padding .5s ease;
+	-moz-transition:padding .5s ease;
+	-o-transition:padding .5s ease;
+	transition:padding .5s ease;
+
+}
+
+
+.dropdown-item:hover, .dropdown-item:focus{
+	    color: #fff;
+    text-decoration: none;
+ background-color: #E41B17; 
+	
+padding-left: 30px
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	
+	padding-right: 1.5rem;
+    padding-left: 1.5rem;
+	margin: 0px 10px; 
+	padding-top: 15px;
+    padding-bottom: 15px;
+	
+}
+.dropdown-divider{
+	height: 0;
+    margin: 0.3rem auto;
+    overflow: hidden;
+    border-top: .5px solid #e41b17;
+	opacity: .5;
+	width: 80%
+}
+.fixed-top{
+	
+	padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.navbar-brand{
+	
+	font-size: 25px;
+	font-weight: 800
+}
+.navbar-brand span{
+	
+	font-weight: 600;
+	color: #E41B17
+}
+
+
+.carousel-indicators .active {
+    opacity: 1;
+	 background-color: #E41B17; 
+	height: 4px
+}
+
+
+
+/*                               */ 
+
+
+
+.testimonials{
+	padding-top: 50px;
+	padding-bottom: 50px
+	
+	
+}
+
+.testimonials h1{
+	font-weight: bold;
+	margin-bottom: 40px
+}
+
+.testimonials .lead{
+	line-height: 2em;
+	margin-bottom: 10px
+	
+}
+
+
+.fansname {
+	
+	font-size: 18px;
+	font-weight: bold;
+	color: #E41B17
+}
+
+
+.testimonials .carousel-inner {
+	
+	min-height: 160px;
+	
+} .carousel-indicators
+
+.ssssffff {
+	position: static;
+}
+
+#hhhhhhhhh{
+	position: static;
+	
+}
+
+
+
+.testimonials .carousel-indicators {
+  position: static;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+.testimonials .carousel-indicators li{
+	height: 80px;
+	width: 80px;
+	opacity: .5;
+border-radius: 50%;
+	text-indent: 0;
+	border: solid 2px #fff;
+	margin: 5px;
+	overflow: hidden;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	transition:all .5s ease;
+	
+}
+.testimonials .carousel-indicators li.active{
+
+opacity: 1;
+background-color: transparent;
+border: solid 2px #E41B17;
+border-radius: 50%;
+overflow: hidden;
+height: 80px;
+width: 80px;
+margin: 5px;	
+	
+}
+
+.testimonials .carousel-indicators li img{
+max-width: 100%;
+	border-radius: 50%;
+	background-color: transparent
+}
+
+/*    بداية سكشن خطة الاسعار   */
+.prices{
+	
+	background-color: #eee;
+	padding-bottom: 40px;
+	padding-top: 40px
+	
+	
+}
+.prices h1 {
+	margin-bottom: 40px
+}
+
+.prices .price_box{
+	
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 15px
+	
+}
+.prices .price_box h3{
+	margin: 5px 0px 15px;
+}
+.prices .price_box:hover p
+{
+border: 2px solid #ddd;
+
+	-webkit-transform: scale(1.1,1.1) rotate(360deg);
+	-moz-transform: scale(1.1,1.1) rotate(360deg);
+	-o-transform: scale(1.1,1.1) rotate(360deg);
+transform: scale(1.1,1.1) rotate(360deg);
+	
+}
+
+
+.prices .price_box p{
+font-size: 35px;
+font-weight: bold;
+color: #666;
+height: 100px;
+width: 100px;
+line-height: 100px;
+border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+-webkit-transition-duration: 0.7s;
+-moz-transition-duration: 0.7s;
+-o-transition-duration: 0.7s;
+transition-duration: 0.7s;
+
+}
+
+.prices .price_box ul{
+line-height: 250%;
+font-size: 18px;
+
+}
+.prices .price_box a{
+	margin-bottom: 5px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    نهاية سكشن خطة الاسعار   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
