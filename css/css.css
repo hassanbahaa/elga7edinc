@@ -306,6 +306,28 @@ font-size: 18px;
 /*    نهاية سكشن خطة الاسعار   */
 
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #353535;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #D32600;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 
 
 
