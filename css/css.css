@@ -46,7 +46,7 @@
 body{
 	padding-top: 45px;
 	font-size: 16px;
-	height: 6000px
+
 }
 
 .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active
@@ -602,24 +602,192 @@ body{
 
 
 
+/*Start Our client section*/
+.ourclient{
+	background-color: #ddd;
+	padding-top: 20px;
+	
+}
+
+.ourclient .list-unstyled{
+	
+
+	
+}
 
 
 
 
 
+.ourclient .list-unstyled li{
+	min-height: 75px;
+	max-width: 150px;
+	margin: 0px auto;
 
 
+}
+
+.ourclient img{
+	opacity: 0.5;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+	-webkit-transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+	transition:all 0.4s ease-in-out;
+		
+	
+}
+.ourclient img:hover{
+	opacity: 1
+}
 
 
+/*End Our client section*/
+
+/*Start footer*/
+.footer{
+	background-color: #333;
+	color: #aaa;
+	padding-top: 20px;
+
+}
+.footer h3{
+	color: #E41B17;
+	letter-spacing: 1px;
+	margin: 20px 0;
+}
 
 
+.footer .thcols{
+	overflow: hidden;
+
+}
+.footer .thcols li{
+	
+	width: 50%;
+	float: left;
+	padding: 5px 0;
+	cursor: pointer;
+	-webkit-transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+	transition:all 0.4s ease-in-out;
+}
+.footer .thcols li:hover{
+	color: #fff
+	
+}
 
 
+.footer .socialcols{
+	
+	overflow: hidden;
+
+}
+
+.footer .socialcols li{
+	
+	float: left;
+	margin-right: 3px;
+	padding-right: 10px;
+	cursor: pointer;
+	-webkit-transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+	transition:all 0.4s ease-in-out;
+	
+}
+
+.footer .socialcols li:hover{
+	color: #fff
+}
+
+.footer a{
+	color: #aaa
+}
+
+.footer a:hover{
+	color: #fff
+}
+
+.footer .media img{
+	opacity: 0.7
+}
+
+.footer .media img:hover{
+	opacity: 1
+}
 
 
+.footer .media{
+	color: #fff;
+	opacity: 0.7;
+	cursor: pointer;
+	margin-bottom: 5px
+	
+}
 
 
+.footer .media:hover{
+	opacity: 1
+}
 
+.footer .media-body h5{
+	
+	margin-bottom: 1px;
+
+}
+
+.footer .media-body p {
+	font-size: 14px;
+	
+}
+
+.tecphoto{
+	min-height:100px;
+	min-width: 150px;
+	height:100px;
+	width: 150px;
+	
+	
+}
+
+.footer .img-thumbnail{
+	
+	background: rgba(0, 0, 0, 0.4);
+	border: 1px solid #444;
+	margin-bottom: 5px;
+	
+}
+
+
+.footer .copyright{
+	background-color: #727171;
+	color: #fff;
+	padding: 15px 0;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 20px;
+	
+}
+
+
+.footer .copyright span{
+	
+	color: #ba0421
+}
+/*.tecphoto:hover{
+	
+	-webkit-transform: scale(5.1,5.1) ;
+	-moz-transform: scale(5.1,5.1) ;
+	-o-transform: scale(5.1,5.1);
+	transform: scale(2.1,2.1) ;
+	
+}*/
+
+/*end footer*/
 
 
 
