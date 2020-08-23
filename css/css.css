@@ -1,4 +1,7 @@
-
+h1, h2, h3, h4, h5{
+	
+	font-family: 'Do Hyeon', sans-serif;
+}
 
 .slidetextopt{
 	background-color: rgba(0, 0, 0, 0.36);
@@ -46,6 +49,7 @@
 body{
 	padding-top: 45px;
 	font-size: 16px;
+	overflow: hidden
 
 }
 
@@ -790,8 +794,96 @@ body{
 /*end footer*/
 
 
+/*Start loading screen*/
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #353535;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #E41B17;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 
+
+.overlay-screen{
+	background-color: #222;
+	color: #fff;
+	position:absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	display: grid;
+	place-items:center
+
+}
+.spinner {
+  width: 70px;
+  text-align: center;
+	top: 50%;
+	left: 50%
+}
+
+.spinner > div {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+	
+	
+	
+	
+	
+	
+	
+	
+/*end loading screen*/
 
 
 ::-webkit-scrollbar {
@@ -827,3 +919,25 @@ body{
 
 
 
+/*Start Media Query*/
+
+/*
+اولا طريقة الكتابة , مثلًا  
+
+@media (max-width: 786px) يعني من الرقم ده للاقل منه
+@media (min-width: 786px) يعني من الرقم ده للاعلي منه
+@media (min-width: 786px) and (max-width: 1280px) يعني من اول الرقم الاول لحد الرقم التاني 
+{
+
+h1{
+font-size: 10px
+}
+
+}
+
+*/
+
+
+
+
+/*End Media Query*/
